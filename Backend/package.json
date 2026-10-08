@@ -1,0 +1,31 @@
+{
+  "name": "Backend",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.2",
+    "@elysiajs/static": "^1.4.10",
+    "@img/sharp-win32-x64": "^0.35.3",
+    "@types/pngjs": "^6.0.5",
+    "@xenova/transformers": "^2.17.2",
+    "drizzle-orm": "^0.45.2",
+    "elysia": "latest",
+    "image-size": "^2.0.2",
+    "onnxruntime-node": "^1.27.0",
+    "onnxruntime-web": "^1.27.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.3",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.31.10"
+  },
+  "module": "src/index.js",
+  "trustedDependencies": [
+    "onnxruntime-node"
+  ]
+}
